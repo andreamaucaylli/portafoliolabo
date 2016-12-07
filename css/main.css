@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+}
+
+body { 
+	padding-top: 50px;
+}
+.barra-menu{
+	background-color: white;
+	border:none;
+}
+.bloque2 p{
+	padding: 0 20%;
+}
+header{
+	font-weight: bold;
+}
+#logo{
+	color: #F05F40;
+	font-size: 
+}
+.linea{
+	width: 10%;
+	border-bottom: 4px solid #F05F40;
+	display: inline-block; 
+	margin-bottom: 1%;
+}
+img{
+	width: 100%;
+}
+
+.banner{
+	background-image: url(../img/header.jpg);
+	padding: 15% 0; 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 10%;
+}
+.banner .text-banner .container h1{
+	font-weight: bold;
+}	
+.bloque3 p{
+	margin-bottom: 30%;
+}
+.bloque3 h2{
+	margin-top: 5%;
+}
+.bloque3 .icon{
+	font-size:50px;
+	color: #F05F40;
+	margin: 20% 0 5% 0;
+}
+.boton1{
+  width: 18%;
+  height: 60%;
+  background-color: #F05F40;
+  border-radius: 23px;
+  padding: 1% 0 0 0%;
+  box-sizing: border-box;
+  margin: 3% 0 0 40%;
+}
+
+.linea2{
+	width: 10%;
+	border-bottom: 4px solid #fff;
+	display: inline-block; 
+	margin-bottom: 1%;
+}
+.text-color{
+	background-color: #F05F40;
+	padding: 5%; 
+	height: 300px;
+}
+
+
+article{
+	position: relative;
+	overflow: hidden;
+}
+#image{
+	width: 100%;
+}
+.text{
+	background-color: rgba(240,95,64,0.8);
+  padding: 17% 0 0 32%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  top: 0px;
+}
+.text-fade{
+	opacity: 0;
+}
+.text-fade:hover {
+	opacity: 1;
+}
+
+.boton-git{
+  width: 18%;
+  height: 60%;
+  background-color: #fff;
+  border-radius: 23px;
+  padding: 1% 0 0 0%;
+  box-sizing: border-box;
+  margin: 3% 0 0 40%;
+}
+.boton-git a{
+	color: #000;
+}
+.git{
+	background-color: #000;
+	padding: 3% 0;
+}
+
+footer{
+	margin-top: 5%;
+	padding-bottom:3%; 
+}
+footer .icon{
+	font-size:50px;
+	color: #F05F40;
+	margin: 5% 0 1% 0;
+}
+
+
+@media screen and (min-width: 270px) and (max-width : 600px){
+	.banner{
+		background-image: url(../img/header.jpg);
+    padding: 6%;
+    background-size: 290%;
+	}
+	.banner h1{
+		font-size: 200%;
+	}
+	.boton1 {
+		width: 80%;
+    height: 60%;
+    background-color: #F05F40;
+    border-radius: 23px;
+    padding: 3% 0 0 0%;
+    margin: 5% 0 10px 10%;
+  }
+  #sobre-mi{
+  	padding: 8%;
+  }
+  .bloque2 p {
+    padding: 0% 0 0 0;
+  }
+  .bloque3 .icon{
+  	margin: 1% 0 0 0;
+  }
+	.linea{
+		width: 50%;
+		margin-bottom: 3%
+	}
+	.linea2{
+		width: 50%;
+		margin-bottom: 3%
+	}
+	.bloque3 p {
+    margin-bottom: 10%;
+	}
+	.boton-git {
+    width: 65%;
+    padding: 3% 0 0 0%;
+    margin: 3% 0 10% 18%;
+	}
+}
+@media screen and (min-width: 600px) and (max-width : 700px){
+	.bloque3 p {
+    margin: 3% 0;
+  }
+  .bloque3 .icon{
+  	margin: 3% 0 0 0;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width : 990px){
+	.bloque3 p {
+    margin: 3% 0 10% 0;
+  }
+  .bloque3 .icon{
+  	margin: 3% 0 0 0;
+  }
+}
+
+
